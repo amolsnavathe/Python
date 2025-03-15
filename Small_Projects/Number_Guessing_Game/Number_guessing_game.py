@@ -14,6 +14,5 @@ while (playing):
         elif (user_input == number_to_guess):
             print("\nCongratulations, you found the number (" + str(number_to_guess) + ")")
             playing = False
-            break
     except ValueError:
         print("Please enter a valid number")
